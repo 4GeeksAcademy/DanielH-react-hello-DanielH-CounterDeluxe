@@ -37,7 +37,12 @@ const SecondsCounter = (props) => {
             <div className="counter box">{hundred}</div>
             <div className="counter box">{ten}</div>
             <div className="counter box">{unit}</div>
+            <div class="input-group mb-3">
+        <input type="number" class="form-control"  aria-label="Nombre de usuario del destinatario" aria-describedby="button-addon2"/>
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Botón</button>
+      </div>
         </div>
+     
     );
 };
 
